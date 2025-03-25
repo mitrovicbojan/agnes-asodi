@@ -35,3 +35,8 @@ window.addEventListener("resize", () => {
     }
   }
 });
+
+//Copyright year
+const crYear = document.querySelector(".cr-year");
+const year = new Date().getFullYear();
+crYear.innerHTML = year;
