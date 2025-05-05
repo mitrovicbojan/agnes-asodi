@@ -159,8 +159,17 @@
     align-items: center;
     flex-direction: column;
     padding: 2rem 5rem;
+    gap: 1rem;
   }
-
+  .social-link {
+    order: 1;
+  }
+  .copy {
+    order: 2;
+  }
+  .madeby {
+    order: 3;
+  }
   .hero-img {
     width: 100%;
   }
@@ -185,7 +194,8 @@
     margin-bottom: 0;
     margin-right: 2rem;
   }
-  .ngo-box {
+  .ngo-box,
+  .about-details {
     margin: 0;
   }
 }

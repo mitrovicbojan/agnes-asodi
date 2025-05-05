@@ -42,7 +42,7 @@ html {
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Rethink Sans", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.5;
@@ -105,8 +105,9 @@ button {
   background-color: var(--color-white-primary);
 }
 
-.brand h1 {
+.brand .logo {
   font-size: 3rem;
+  font-weight: bold;
   margin: 0;
   color: var(--color-black-default);
 }
@@ -160,10 +161,15 @@ button {
   transition: all 0.3s ease;
 }
 
+.page-link {
+  color: var(--color-blue);
+  font-weight: 600;
+}
+
 .menu-block {
   display: inline-block;
   font-family: inherit;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 500;
   line-height: 1.25;
   user-select: none;
@@ -279,7 +285,7 @@ button {
 }
 
 .heading-primary {
-  font-size: 5.4rem;
+  font-size: 6rem;
   line-height: 1.4;
   margin-bottom: 3.2rem;
   font-weight: 700;
@@ -449,7 +455,7 @@ button {
 }
 .left-card,
 .right-card {
-  border-radius: 1rem;
+  border-radius: 4rem;
   background-color: var(--color-white-primary);
   overflow: hidden;
 }
@@ -514,7 +520,7 @@ button {
 .testimonial-item--3,
 .testimonial-item--4 {
   padding: 4rem;
-  border-radius: 1rem;
+  border-radius: 4rem;
   text-align: left;
 }
 
@@ -549,12 +555,51 @@ button {
   padding-top: 2rem;
 }
 
+/**************/
+/****FOOTER****/
+/**************/
+
 .footer {
   background: var(--color-black-dark);
   padding: 2rem 27rem;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+}
+
+.copy,
+.madeby {
+  font-size: 1.6rem;
+}
+
+.in-link {
+  display: block;
+  padding-left: 1rem;
+}
+
+.in-link svg {
+  height: 5rem;
+  width: 5rem;
+}
+
+.in-link svg:hover {
+  scale: 1.1;
+  transition: all 0.25s ease-in-out;
+}
+.social-link {
+  display: flex;
+  align-items: center;
+}
+
+.xeldot-link {
+  color: var(--color-white-primary);
+}
+
+.privacy {
+  color: var(--color-purple);
+  font-size: 1.2rem;
+  padding-top: 1rem;
 }
 
 /*************/
@@ -563,7 +608,7 @@ button {
 
 .card {
   border: 2px solid var(--color-black-default);
-  border-radius: 1rem;
+  border-radius: 2.4rem;
   padding: 1.8rem;
   -webkit-box-shadow: 5px 5px 0px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 5px 5px 0px 1px rgba(0, 0, 0, 0.75);
@@ -596,7 +641,7 @@ button {
 .session-card {
   background-color: var(--color-white-primary);
   padding: 4rem;
-  border-radius: 3rem;
+  border-radius: 4rem;
 }
 .card-title {
   display: flex;
@@ -759,7 +804,17 @@ button {
   margin: 0 auto 4rem;
 }
 
-/***stars**/
+/****ABOUT***/
+
+.about-details {
+  font-size: 2.2rem;
+  margin: 0 14rem;
+  font-weight: 500;
+}
+
+/************/
+/***STARS***/
+/***********/
 
 .block-orange {
   position: relative;
